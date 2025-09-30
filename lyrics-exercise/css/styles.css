@@ -1,0 +1,32 @@
+html{
+    background-color: lightblue;
+    font-family: Didot, serif
+}
+
+iframe{
+
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header{
+    font-size: 150px;
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    font-weight: 300;
+    color: rgb(137, 0, 0);
+}
+
+div{
+    text-align: center;
+    padding-bottom: 17px;
+    font-size: 15px;
+}
+
+p{
+    margin: 7px;
+    color: rgb(60, 55, 55);
+}
