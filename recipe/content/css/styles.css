@@ -1,0 +1,23 @@
+html{
+    background-color: rgb(198, 225, 171);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+}
+header{
+    text-align: center;
+    font-size: 50px;
+}
+
+p{
+    font-size: 30px;
+}
+
+li{
+    padding-bottom: 1rem;
+}
+
+img{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
