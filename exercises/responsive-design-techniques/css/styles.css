@@ -1,0 +1,59 @@
+
+body{
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Make the background-color of this document to #eaf6ff when the viewport width is 640px or more. */
+
+@media (min-width: 640px){
+    html{
+        background-color: #eaf6ff; 
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+}
+
+
+/* Make the <h1> on this page have a font-size of 1.5rem when the viewport width is below 500px, and 2.5rem when the viewport width is above 640px. */
+
+@media (max-width: 500px){
+    h1{
+        font-size: 1.5rem; 
+    }
+}
+
+
+/* 
+  Turn the following list into a grid of boxes that wrap horizontally (side-by-side until they run out of room and wrap to the next line). Make each <aside> 170px wide, with a 10px margin. Set the font-size for the boxes to be 0.8rem. Be sure to remove the bullets associated with the <li> tags, and remove the default padding-left on the <ul>. */
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+aside{
+    width: 170px;
+    margin: 10px;
+    font-size: 0.8rem;
+}
+
+/* As above, make a grid of boxes that wrap horizontally. This time, give each <li> a width of 100%. When the viewport width is greater than 480px, make each <li> be 50% wide. If the viewport is greater than 640px, make each <li> be 25% wide. The grid should be 1-across at small widths, 2-across at medium widths, and 4-across and large widths. Don't set a width on the <aside> elements, but be sure they have a 10px margin.
+
+Now, set the <ul> to have a margin of -10px left and right, 1rem top and bottom. What happens? */
+
+@media (min-width: 480px) {
+    li {
+      width: 50%;
+    }
+  }
+  
+@media (min-width: 640px) {
+    li {
+      width: 25%;
+    }
+}
