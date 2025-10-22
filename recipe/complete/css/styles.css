@@ -1,0 +1,230 @@
+html{
+    background-color: rgb(246, 244, 243);
+    font-family: "quasimoda", sans-serif;
+    margin: 0px 80px 0 80px;
+    color: rgb(232, 80, 9);
+}
+
+h2{
+    font-family:"dico-mono-script", mono;
+    color: rgb(22, 34, 111);
+    font-size: 37px;
+}
+
+hr { 
+    background:rgb(225, 26, 219); 
+}
+
+.source{
+    font-size: 16px;
+    font-style: italic;
+}
+
+footer p{
+    color: rgb(22, 34, 111);
+    padding: 0 0 0 0;
+}
+
+section{
+    margin: 0 20px;
+    line-height: 1.4;
+}
+
+
+h1{
+    font-family:"dico-mono-script", mono;
+    text-align: center;
+    font-size: 120px;
+    color: rgb(22, 34, 111);
+    font-family: "baga", sans-serif;
+    
+   
+  }
+
+ .text {
+    width: 50%;
+    font-size: 46px;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+    padding: 0px 0 0 100px;
+    color: rgb(201, 79, 8);
+  }
+  
+.image {
+    width: 50%; 
+    height: auto;
+    align-items: center;
+    object-fit: cover; 
+    opacity: 70%;
+  }
+
+  img{
+    width: 500px;
+  }
+
+  .body-description{
+    display: flex;
+    align-items: center;
+    padding: 10px 0 0 0px;
+    gap: 20px;
+  }
+
+ 
+
+  .about{
+    width: 64%;
+    padding: 0px 0 0 10px;
+    font-size: 17px;
+  }
+
+  .info{
+    text-align: center;
+    font-size: 12px;
+    padding: 0 0 0 0;
+    color: rgb(22, 34, 111)
+  }
+
+  .ingredients{
+    display: flex;
+    align-items: center;
+    padding:20px 40px 20px 250px;
+    gap: 20px;
+  }
+
+  .ingr-text{
+    padding:20px 20px 20px 20px;
+    font-size: 16px;
+
+  }
+
+  img.ingr{
+    width: 350px;
+  }
+
+  .steps{
+    font-size: 20px;
+    padding:20px 20px 20px 81px;
+    text-align:left;
+  }
+
+  .steps > div{
+    padding: 0 0 50px 0;
+  }
+
+ .steps  img{
+    max-width: 350px;
+    object-position: left; 
+  }
+
+  body, h1, h2, p {
+    margin: 0;
+    padding: 0px 31px 30px 0px;
+}
+
+.header-container, .description, .info, .ingredients, .steps {
+    max-width: 1024px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ingredients, .steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+li {
+    width: 25%;
+}
+
+.source{
+    display:block;
+    font-size: 20px;
+}
+
+
+
+/* responsive design  */
+
+
+
+/* Medium screen (920px) */
+@media (max-width: 920px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .description, .info, .ingredients, .steps {
+        max-width: 640px;
+    }
+    li {
+        width: 50%;
+    }
+    .info{
+        display: none;
+    }
+
+   
+    .body-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+/* Small screen (480px) */
+
+@media (max-width: 480px) {
+    .ingredients, .steps {
+        display: flex;
+        flex-direction: column;
+    }
+    li {
+        width: 100%;
+    }
+    .header-container, .description, .info, .ingredients, .steps {
+        padding: 5px;
+        width: 100%;
+    }
+}
+
+/* Extra-small screen (375px and below) */
+
+@media (max-width: 375px) {
+    body {
+        font-size: 14px;
+    }
+    .header-container, .description, .info, .ingredients, .steps {
+        padding: 5px;
+    }
+    h1, h2 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1em;
+    }
+
+    .steps img, .ingredients img {
+        display: none;
+    }
+    li {
+        width: 100%;
+    }
+}
