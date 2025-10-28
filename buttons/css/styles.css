@@ -1,0 +1,161 @@
+
+a{
+    text-decoration: none;
+}
+
+
+a#btn_letterboxd {
+    background-color: #2b2b2b;
+    color: #00c030;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a#btn_letterboxd:hover {
+    background-color: #00c030;
+    color: #2b2b2b;
+}
+
+a#btn_bumble {
+    background-color: #fdbb2b;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 18px;
+    border: 3px solid #fdbb2b;
+    border-radius: 50px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a#btn_bumble:hover {
+    background-color: white;
+    color: #fdbb2b;
+}
+
+a#btn_aldi {
+    background: linear-gradient(to right, #0052a4, #87cfff);
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a#btn_aldi:hover {
+    background: linear-gradient(to left, #0052a4, #87cfff);
+}
+
+a#btn_moreperfectunion {
+    background-color: #7444e5;
+    color: white;
+    padding: 12px 28px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+a#btn_moreperfectunion:hover {
+    background-color: #1a5abf;
+}
+
+a#btn_ikea {
+    background-color: #ffcc00;
+    color: #003399;
+    padding: 14px 30px;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a#btn_ikea:hover {
+    background-color: #003399;
+    color: #ffcc00;
+}
+
+a#btn_mobilize {
+    background-color: #0033cc;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a#btn_mobilize:hover {
+    background-color: #00228c;
+}
+
+a#btn_stshakes {
+    background-color: #540c66;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-family: 'Times New Roman', serif;
+    border-radius: 50px;
+    font-style: italic;
+}
+
+a#btn_stshakes:hover {
+    background-color: #6b0d80;
+}
+
+a#btn_tmobile {
+    background-color: #e20074;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a#btn_tmobile:hover {
+    background-color: #ff66b2;
+}
+
+a#btn_drmartens {
+    background-color: black;
+    color: yellow;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    border: 2px solid yellow;
+}
+
+a#btn_drmartens:hover {
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+}
+
+a#btn_bds {
+    background-color: rgb(236, 232, 232);
+    color: rgb(136, 24, 9);
+    padding: 15px 30px;
+    font-size: 18px;
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    border: 2px solid rgb(22, 22, 5);
+    border-radius: 40px;
+
+}
+
+a#btn_bds:hover {
+    background-color: rgb(136, 23, 11);
+    color: rgb(236, 219, 219);
+    border: 2px solid rgb(252, 4, 4);
+}
