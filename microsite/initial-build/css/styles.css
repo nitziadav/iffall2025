@@ -1,0 +1,126 @@
+header {
+  background-color: #000;
+  font-family: "Dokdo", system-ui;
+  font-size: 20px;
+}
+
+.topnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.topnav a {
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding:  1px 40px;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.topnav a:hover {
+  background-color: #e63946;
+  color: #fff;
+}
+
+.topnav a.active {
+  background-color: #020202;
+  color: #fff;
+  font-size: 90px;
+}
+
+.snoopimage{
+    width: 33%;
+    display: block;
+    margin: auto;
+}
+
+html{
+    background-color: rgb(255, 255, 245);
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+  background-color: #fefcf8;
+  font-family: 'Comic Neue', sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: 'Dokdo', cursive;
+  text-align: center;
+  font-size: 6rem;
+  letter-spacing: 6px;
+  margin: 40px 0 10px;
+}
+
+h2{
+  font-family: 'Dokdo', cursive;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 6px;
+  margin: 40px 0 10px;
+}
+
+p {
+  max-width: 900px;
+  margin: 0 auto 50px auto;
+  padding: 0 20px;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+
+
+ul {
+  list-style-type: none;
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 4px;
+  background-color: #000;
+  top: 0;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+
+ul li {
+  position: center;
+  width: 50%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+
+
+ul li h3 {
+  font-family: 'Dokdo', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+
+
+
+
+
